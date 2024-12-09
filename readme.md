@@ -32,4 +32,4 @@ To run this project locally, you need:
 Clone this repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/yourusername/pos-system.git
+git clone https://github.com/kthlzr/pos-system.git
