@@ -1,0 +1,123 @@
+/* Reset Some Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Settings */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styling (Navigation Bar) */
+nav {
+    background-color: #007bff;
+}
+
+nav a.navbar-brand, nav a.nav-link {
+    color: white !important;
+}
+
+/* Card and Jumbotron Styles */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-body .btn {
+    width: 200px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+/* Jumbotron - Landing Page */
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+    font-weight: 600;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Table Customization */
+table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table td {
+    border-top: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+/* Form Inputs */
+input, select, button {
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-body .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
